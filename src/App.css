@@ -33,3 +33,14 @@ a{
 li, ul{
     list-style: none;
 }
+.category{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;    
+    letter-spacing: 2px;
+   background-color: #47a81b;
+}
+.row{
+    width: 50%;
+}
