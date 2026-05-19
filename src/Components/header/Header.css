@@ -1,0 +1,78 @@
+.head{
+    cursor: pointer
+}
+.head .logo  img{
+    width: 150px;
+    height: auto;
+}
+header{
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header li{
+    list-style: none;
+    margin-right: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+header li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+}
+header li a:hover{
+    color: #ff000094;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.barIco{
+    display: none;
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .head .ad{
+        display: none;
+    }
+    header .icon{
+        display: none;
+    } 
+    header .flex{
+        display: none;
+    }
+    .barIco{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 280px !important;
+        left: 0;
+        width: 100%;
+        background-color: #fb4c35;
+        height: 45vh;
+        z-index: 5;
+        padding: 50px;
+       
+    }
+    header ul li {
+       
+        margin-bottom: 25px;
+    
+     }
+
+}
