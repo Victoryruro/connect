@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from '../Heading/Heading'
 import { popular } from '../../dummyData'
 import Slider from "react-slick";
+import './Popular.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -26,21 +27,7 @@ const Popular = () => {
             
             }
         },
-        {
-            breakpoint: 600,
-            settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-            }
-        }
+
         ]
   };
 
@@ -59,21 +46,24 @@ const Popular = () => {
                                     <div className="img">
                                         <img src={item.cover} alt={item.title} />
                                     </div>
+                                    <div className="category category1">
+                                        <span>{item.catgeory}</span>
+                                    </div>
                                 </div>
-                                <div className="category category1">
-                                    <span>{item.catgeory}</span>
-                                </div>
+
                                 <div className="text row">
                                     <h1 className="title">{item.title.slice(0, 40)}...</h1>
+                                    <div className="date">
+                                        <i className="far fa-calendar-days"></i>
+                                        <label htmlFor=''>{item.date}</label>
+                                    </div>
+                                    <div className="comment">
+                                        <i className="far fa-comments"></i>
+                                        <label htmlFor=''>{item.date}</label>
+                                    </div>
                                 </div>
-                                <div className="date">
-                                    <i className="far fa-calendar-days"></i>
-                                    <label htmlFor=''>{item.date}</label>
-                                </div>
-                                <div className="comment">
-                                    <i className="far fa-comments"></i>
-                                    <label htmlFor=''>{item.date}</label>
-                                </div>
+                               
+
                             </div>
                         </div>
                     )

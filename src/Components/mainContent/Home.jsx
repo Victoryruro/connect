@@ -1,6 +1,7 @@
 import React from 'react'
 import "./style.css"
 import Popular from '../popular/Popular'
+import Ppost from '../ppost/Ppost'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
             <div className="container">
                 <section className="maincontent">
                     <Popular />
+                    <Ppost />
                 </section>
                 <section className="sidecontent"></section>
             </div>
