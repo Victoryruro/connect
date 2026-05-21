@@ -20,7 +20,7 @@ const Footer = () => {
       </footer>
       <div className="legal">
         <div className="container flexSB">
-            <p>&copy; SideProject</p>
+            <p>&copy;2026 SideProject</p>
             <p>
                 <a href="https://github.com/Victoryruro" target="_blank" rel="noopener noreferrer">
                     By <i className="fa fa-user" ></i> 
