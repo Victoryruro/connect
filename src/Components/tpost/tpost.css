@@ -1,0 +1,47 @@
+.tpost .box {
+
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.tpost .img {
+    width: 100px;
+    height: 80px;
+    
+
+}
+.tpost .box img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.tpost .text {
+    padding:  20px;
+}
+.tpost h1 {
+    font-size: 15px;
+    
+}
+.tpost  span {
+    font-size: 12px;
+    color: #888;
+}
+@media screen and (max-width: 900px) {
+
+    .tpost .img, .tpost  img {
+        width: 200px;
+        height: 150px;
+
+    }
+    .tpost .text {
+        width: 100%;
+        text-align: center;
+    }
+    .tpost h1 {
+        font-size: 15px;
+        
+    }
+    .tpost  span {
+        font-size: 12px;
+        color: #888;
+    }
+}

@@ -3,7 +3,7 @@
     margin-left: 2px; 
 }
 .tech .text {
-    padding: 0 30px;
+    padding: 0 20px;
 }
 .tech .images {
     width: 320px;
@@ -15,4 +15,18 @@
     height: 320px;
     object-fit: cover;
 
+}
+@media screen and (max-width: 900px) {
+    .tech .images, .tech img {
+        width: 100%;
+        height: auto;
+    }
+    .tech .text {
+        width: 100%;
+        text-align: center;
+    }
+    .tech .box {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

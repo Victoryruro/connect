@@ -1,7 +1,7 @@
 main .container {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
     gap: 10px;
 }
 .maincontent  {
@@ -13,12 +13,12 @@ main .container {
     width: 25%;
  
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     main .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .maincontent  {
     width: 100%;

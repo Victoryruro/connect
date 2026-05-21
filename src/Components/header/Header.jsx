@@ -14,8 +14,8 @@ const Header = () => {
                 <nav>
                     <ul className={navbar? "navbar": "flex"} onClick={() => setnavbar(false)}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/fashion">Fashion</Link></li>
-                        <li><Link to="/tech">Tech</Link></li>
+                        <li><Link to="/Fashion">Fashion</Link></li>
+                        <li><Link to="/TechPage">Tech</Link></li>
                         <li><Link to="/music">Music</Link></li>
                         <li><Link to="/review">Reviews</Link></li>
 

@@ -1,0 +1,65 @@
+footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 30px;
+
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer .box {
+  margin-bottom: 20px;
+}
+
+footer .box.logo img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+footer .box.logo p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer .box.logo i {
+    font-size: 20px;
+}
+
+footer .box.logo span {
+    font-weight: 500;
+}
+
+.legal {
+  background-color: #5aec7a;
+  padding: 10px 0;
+}
+
+.legal .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.legal p {
+  margin: 0;
+}
+@media screen and (max-width: 900px) {
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .box {
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+}

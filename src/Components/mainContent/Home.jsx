@@ -20,6 +20,7 @@ const Home = () => {
                 </section>
             </div>
         </main>
+        
 
     </>
   )
