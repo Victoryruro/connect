@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ConnectHQ/static/css/main.bf53edb8.css",
-    "main.js": "/ConnectHQ/static/js/main.ae71d798.js",
+    "main.js": "/ConnectHQ/static/js/main.b8b25e9f.js",
     "static/js/453.1c0f0fa5.chunk.js": "/ConnectHQ/static/js/453.1c0f0fa5.chunk.js",
     "static/media/connectlogo.jpg": "/ConnectHQ/static/media/connectlogo.78fd608cce99645be5b9.jpg",
     "static/media/sublogo.jpg": "/ConnectHQ/static/media/sublogo.64c359932075c846ff4c.jpg",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/ConnectHQ/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ConnectHQ/index.html",
     "main.bf53edb8.css.map": "/ConnectHQ/static/css/main.bf53edb8.css.map",
-    "main.ae71d798.js.map": "/ConnectHQ/static/js/main.ae71d798.js.map",
+    "main.b8b25e9f.js.map": "/ConnectHQ/static/js/main.b8b25e9f.js.map",
     "453.1c0f0fa5.chunk.js.map": "/ConnectHQ/static/js/453.1c0f0fa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf53edb8.css",
-    "static/js/main.ae71d798.js"
+    "static/js/main.b8b25e9f.js"
   ]
 }
