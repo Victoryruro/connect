@@ -7,7 +7,7 @@ const Card = ({ item : {id, cover,catgeory, title, authorName, authorImg, time, 
     <>
         <div className="box">
             <div className="img">
-                <img src={cover} alt={title} />
+                <img loading='lazy' src={cover} alt={title} />
             </div>  
             <div className="text">
                 <span className='category'>{catgeory}</span> 
