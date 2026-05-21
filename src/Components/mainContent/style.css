@@ -2,6 +2,7 @@ main .container {
     display: flex;
     justify-content: space-between;
     height: 100vh;
+    gap: 10px;
 }
 .maincontent  {
     width: 75%;

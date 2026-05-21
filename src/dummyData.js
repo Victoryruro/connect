@@ -396,7 +396,7 @@ export const tpost = [
   {
     id: 1,
     title: "US Promises to give Intel aid to locate the soldiers",
-    cover: "https://github.com/sunil9813/News-Website/blob/master/public/images/tpost/tpost.webp",
+    cover: "https://github.com/sunil9813/News-Website/blob/master/public/images/tpost/tpost.webp?raw=true",
   },
   {
     id: 2,

@@ -1,0 +1,18 @@
+.tech .box {
+    margin-bottom: 30px;
+    margin-left: 2px; 
+}
+.tech .text {
+    padding: 0 30px;
+}
+.tech .images {
+    width: 320px;
+    height: 320px;
+
+}
+.tech img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+
+}

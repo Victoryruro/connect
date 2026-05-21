@@ -18,7 +18,7 @@ const Ppost = () => {
 
   return (
     <>
-        <section className="popularPost">
+        <section className="popularPost tech">
             <Heading title='Popular Posts'/>
             <div className="content">
                 <Slider {...settings}>
